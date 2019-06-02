@@ -1,7 +1,7 @@
-const records = require('../services/records.service');
+const records = require('../services/records.mongo.service');
 
-const readAll = (req, res) => records
-    .findAll()
+const readAll = ({params}, res) => records
+    .findAll(params.user)
     .then(data => res.status(200).send(data))
     .catch(err => res.status(500).send(err));
 

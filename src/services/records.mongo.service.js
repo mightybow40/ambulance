@@ -1,6 +1,6 @@
 const recordsModel = require('../models/records.model');
 
-const findAll = () => recordsModel.find();
+const findAll = (user) => recordsModel.find({user_id: user});
 
 const find = id => recordsModel.findOne({_id: id});
 
