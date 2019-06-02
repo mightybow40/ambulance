@@ -1,0 +1,24 @@
+{
+  "name": "ambulance",
+  "version": "1.0.0",
+  "description": "ambulance app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightybow40/ambulance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightybow40/ambulance/issues"
+  },
+  "homepage": "https://github.com/mightybow40/ambulance#readme",
+  "dependencies": {
+    "eslint": "^5.15.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3"
+  }
+}
